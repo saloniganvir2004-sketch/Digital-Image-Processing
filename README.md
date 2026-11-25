@@ -39,3 +39,34 @@ numpy
 opencv-python
 matplotlib
 Pillow
+
+## Additional Implementation: Image Intensity Transformations
+
+This notebook demonstrates three fundamental intensity transformation techniques using Python, OpenCV, and NumPy.
+
+### Implemented Techniques
+
+1. Negative Transformation
+   - Converts colour images into grayscale.
+   - Applies s = L - 1 - r.
+   - Generates negative images.
+
+2. Log Transformation
+   - Applies logarithmic intensity transformation.
+   - Uses s = c * log(1 + r).
+   - Enhances details in darker intensity regions.
+
+3. Power-Law Transformation
+   - Implements gamma correction.
+   - Uses gamma = 0.9.
+   - Applies normalized pixel intensity transformation.
+
+### Additional Features
+
+- Upload multiple images using Google Colab.
+- Access individual grayscale pixel values.
+- Generate transformation matrices.
+- Visualize original and transformed images.
+
+Notebook: Image_Intensity_Transformations_Corel1000.ipynb
+
