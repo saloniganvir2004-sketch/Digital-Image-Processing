@@ -70,3 +70,41 @@ This notebook demonstrates three fundamental intensity transformation techniques
 
 Notebook: Image_Intensity_Transformations_Corel1000.ipynb
 
+
+## Image Resizing and Interpolation Techniques
+
+This notebook demonstrates image resizing and different interpolation techniques using Python and OpenCV.
+
+### Implemented Techniques
+
+1. Image Resizing
+   - Resizes an input image from 512 × 512 to 256 × 256 pixels.
+   - Displays original and resized image dimensions.
+
+2. Nearest Neighbour Interpolation
+   - Uses the nearest pixel value for resizing.
+
+3. Bilinear Interpolation
+   - Uses neighbouring pixel values to calculate interpolated pixels.
+
+4. Bicubic Interpolation
+   - Applies cubic interpolation for image resizing.
+
+5. Lanczos Interpolation
+   - Uses Lanczos interpolation for image resizing.
+
+### Additional Features
+
+- Upload images using Google Colab.
+- Display original and resized images.
+- Save the resized image as a JPG file.
+- Generate resized images using four interpolation methods.
+
+### Technologies Used
+
+- Python
+- OpenCV
+- Google Colab
+
+Notebook: Image_Resizing_Techniques.ipynb
+
